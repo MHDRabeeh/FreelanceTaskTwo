@@ -8,10 +8,12 @@ function App() {
 
   return (
     <>
-      <div className='h-[90rem] w-ful'>
+      <div className='h-[300rem] w-ful'>
+      
         <Header />
-        {/* <Main /> */}
+        <Main/>
         <Footer />
+        
 
       </div>
 

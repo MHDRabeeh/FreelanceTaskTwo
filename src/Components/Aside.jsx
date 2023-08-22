@@ -5,14 +5,14 @@ import { asideData } from '../data'
 
 const Aside = () => {
     return (
-        <div className='w-[80%] h-[70%]  flex flex-col gap-3'>
+        <div className='  flex flex-col gap-3'>
             {
                 asideData.map((item, i) => (
-                    <div key={i} className={`w-[85%]  h-40 bg-[#ecfeff] p-3 rounded-3xl flex flex-col justify-evenly  ${item.opacity}`}>
+                    <div key={i} className={` h-40 bg-[#ecfeff] p-3 rounded-3xl flex flex-col justify-evenly  ${item.opacity}`}>
                         <div className=' flex gap-2'>
                             {item.svg}
                             <div>
-                                <p className='text-[#0080A4] font-semibold  md:text-lg  lg:text-xl'>{item.title}</p>
+                                <p className='text-[#0080A4] font-semibold  md:text-lg  lg:text-xl '>{item.title}</p>
                             </div>
                         </div>
                         <div className='w-[80%] mx-auto flex  h-36'>
