@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='h-[300rem] w-ful'>
+      <div className='h-[140rem] w-ful'>
       
         <Header />
         <Main/>
